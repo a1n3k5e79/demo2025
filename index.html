@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="color: blue" >Hello World!</h1>
+    <h3>A subtitle</h3>
+
+    <button id = "navigateButton">Go to another page</button>
+    <script>
+        const navigateButton = document.getElementById('navigateButton')
+        navigateButton.addEventListener('click', function(){
+            window.location.href = 'test.html'
+        })
+    </script>
+
+    <p id = 'main'>My name is Anke Stein.</p>
+    <p class = "A">Today is a <i>good</i> day!</p>
+    <p>I will get an A in <b>DS4200</b>.</p>
+
+    <a href="https://www.northeastern.edu">Please check my university website!</a>
+
+    <p>To do list:</p>
+    <ol>
+        <li>Make dinner</li>
+        <li>Get mail</li>
+        <li>Do my homework</li>
+    </ol>
+
+    <img src="https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_3x2.jpg" width="300", height="200">
+</body>
+</html>
